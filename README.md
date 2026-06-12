@@ -8,13 +8,13 @@ A hands-on session exploring the landscape of AI-enabled data analysis workflows
 
 **"If I can upload my data to ChatGPT or Claude, why would I write a notebook?"**
 
-It's a fair question. And the answer isn't "notebooks are always better." This webinar shows you the landscape—when to use each approach, and why notebooks become valuable as your analysis scales.
+It's a fair question. And the answer isn't "notebooks are always better." This webinar shows you the landscape, when to use each approach, and why notebooks become valuable as your analysis scales.
 
 ## What You'll Learn
 
 By the end of this session, you'll understand:
 
-1. **Level 1** – When to use AI chat interfaces directly (fast, no coding needed, but limited for scale)
+1. **Level 1** - When to use AI chat interfaces directly (fast, no coding needed, but limited for scale)
 2. **Level 2** – Why notebooks matter when you need to repeat analysis across many records consistently
 3. **Level 3** – How to combine notebooks with AI APIs to automate analysis at scale
 4. **Level 4** – That open-source models exist and when they might be useful
@@ -43,7 +43,7 @@ We'll explore the same research question using four different approaches. Each h
 **What it does:** Analyzes the data using traditional Python (pandas, basic statistics, charts).
 
 **Why start here?** 
-- Establishes a baseline—you understand the problem before adding AI
+- Establishes a baseline.
 - Shows that notebooks existed before generative AI
 - Demonstrates reproducible, transparent analysis
 
@@ -53,7 +53,7 @@ We'll explore the same research question using four different approaches. Each h
 
 ### 2. **Notebook with API** (`Notebook_with_API.ipynb`)
 
-**What it does:** Same question, same dataset—but now AI processes every record systematically.
+**What it does:** Same question, same dataset. But now AI processes every record systematically.
 
 ```python
 for record in dataset:
@@ -96,17 +96,22 @@ for record in dataset:
 
 ## How to Use This Repo
 
+**Launch notebooks instantly in Google Colab (no setup required):**
+
+| Notebook | Launch in Colab |
+|----------|-----------------|
+| Notebook Without AI | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ms-cc-org/Webinar3-Getting-Started-with-AI-Coding-and-Notebooks/blob/main/Notebook_without_AI.ipynb) |
+| Notebook with API | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ms-cc-org/Webinar3-Getting-Started-with-AI-Coding-and-Notebooks/blob/main/Notebook_with_API.ipynb) |
+| Notebook with HuggingFace Model | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ms-cc-org/Webinar3-Getting-Started-with-AI-Coding-and-Notebooks/blob/main/Notebook_with_HFmodel.ipynb) |
+
 **During the Webinar:**
 
-1. **Start with the chat interface question:** We'll begin by solving a problem using ChatGPT or Claude directly (the approach you probably already use).
-
-2. **Open Notebook Without AI:** See the same problem solved with traditional Python—showing what's possible without AI.
-
-3. **Run Notebook with API:** Discover how to automate analysis and scale to multiple records. This is typically the "aha moment."
-
-4. **Explore Notebook with Local Model:** See that open-source models are accessible and sometimes better for your use case.
-
-5. **Compare the results:** Notice that all three notebooks produce similar, reproducible outputs—the real value is in the automation and consistency.
+1. **Click a notebook link above** – It opens instantly in Google Colab (no installation needed)
+2. **Start with the chat interface question:** We'll begin by solving a problem using ChatGPT or Claude directly (the approach you probably already use).
+3. **Open Notebook Without AI:** See the same problem solved with traditional Python—showing what's possible without AI.
+4. **Run Notebook with API:** Discover how to automate analysis and scale to multiple records. This is typically the "aha moment."
+5. **Explore Notebook with Local Model:** See that open-source models are accessible and sometimes better for your use case.
+6. **Compare the results:** Notice that all three notebooks produce similar, reproducible outputs—the real value is in the automation and consistency.
 
 ---
 
@@ -136,10 +141,10 @@ That's the notebook advantage: **it's a well-documented, reproducible workflow.*
 
 ## What You Should Leave Understanding
 
-✓ **Level 1:** I can use ChatGPT directly on data for quick exploration  
-✓ **Level 2:** I understand when a notebook becomes useful (scale, repeatability)  
-✓ **Level 3:** I can combine notebooks and AI APIs to automate analysis  
-✓ **Level 4:** I know open-source models exist and when they might matter  
+- **Level 1:** I can use ChatGPT directly on data for quick exploration  
+- **Level 2:** I understand when a notebook becomes useful (scale, repeatability)  
+- **Level 3:** I can combine notebooks and AI APIs to automate analysis  
+- **Level 4:** I know open-source models exist and when they might matter  
 
 If you leave with these four mental models, you've successfully bridged the gap between "AI user" and "AI practitioner."
 
@@ -153,11 +158,3 @@ After this webinar, you're ready for:
 - **Explore the AI Accelerator** – deeper technical training on model fine-tuning, deployment, and advanced workflows
 - **Participate in hackathons** – apply these skills on real-world projects
 - **Engage technical consulting** – bring in experts for domain-specific applications
-
----
-
-## Additional Resources
-
-- `Notes.md` – Detailed notes and learning framework
-- `How AI is used.docx` – Different AI usage patterns and when to apply each
-- `Gemini approach.docx` – Example using Google's Gemini API
