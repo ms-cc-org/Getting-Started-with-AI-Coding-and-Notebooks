@@ -2,7 +2,7 @@
 
 **Date:** June 17, 2026
 
-**This is part of the [MS-CC AI Readiness Webinar Series](https://ms-cc.org/event/the-ms-cc-ai-webinar-series/)**
+**This is part of the [MS-CC AI Readiness Webinar Series](https://ms-cc.org/ms-cc-ai-readiness-webinar-series/)**
 
 Researchers and practitioners increasingly use tools like ChatGPT and Claude to explore datasets and answer questions. But what happens when you need to:
 
